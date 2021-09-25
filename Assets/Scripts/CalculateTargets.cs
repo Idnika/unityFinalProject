@@ -6,13 +6,21 @@ public class CalculateTargets : MonoBehaviour
 {
     public GameObject[] Targets = new GameObject[5];
 
+    public GameObject[] FingerTemper = new GameObject[5];
+
     /*
     public GameObject gameThumbTarget = null;
     public GameObject gameIndexTarget = null;
     public GameObject gameMiddleTarget = null;
     public GameObject gameRingTarget = null;
     public GameObject gamePinkyTarget = null;
+
+      
     */
+
+    // 건반이 내려가는 높이
+    Vector3 keyDownValue = new Vector3(0f, 0.051f, 0f);
+    Vector3 stretchValue = new Vector3(0.1f, 0.12f, 0.4f);
 
     Vector3 basicDistance = Vector3.zero;
 
@@ -75,14 +83,11 @@ public class CalculateTargets : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            Debug.Log("object로 들어온 30번째 건반");
-            Debug.Log(key_manager.wholeKeyArr[30].transform.position);
-            Debug.Log("object로 들어온 33번째 건반");
-            Debug.Log(key_manager.wholeKeyArr[33].transform.position);
-            MoveHands(30, -1, -1, -1, 33);
-            Debug.Log(Targets[0].transform.position);
-            Debug.Log(Targets[4].transform.position);
+            GoToOrigin();
+            MoveHands(30, 32, -1, -1, 37);
         }
+
+        
 
         // rightWrist가 검은 건반을 칠 때 움직이는 정도 : (0.058, 0.071, 0.231)
 
@@ -116,31 +121,75 @@ public class CalculateTargets : MonoBehaviour
             }
             else
             {
-                Debug.Log("일단 잘 들어옴");
                 // 통상의 경우(손가락 두 개 이상이 눌렸을 때)
-
+                
                 int i_minFinger = minFinger(thumb, index, middle, ring, pinky);
                 int i_maxFinger = maxFinger(thumb, index, middle, ring, pinky);
 
-                
-
-                if (i_minFinger == 0) { }
+                int[] tempHand = { thumb, index, middle, ring, pinky };
 
                 // 손목이 위치할 중간 X값 구하기
-                Vector3 getAverage = key_manager.wholeKeyArr[].transform.position + key_manager.wholeKeyArr[].transform.position;
+                Vector3 getAverage = key_manager.wholeKeyArr[tempHand[i_minFinger]].transform.position + key_manager.wholeKeyArr[tempHand[i_maxFinger]].transform.position;
                 getAverage = getAverage / 2;
-                Debug.Log("나는평균을구햇는데...ㅅㅂ");
-                Debug.Log(getAverage);
 
-                rightWrist.transform.position = new Vector3(getAverage.x, 1.766f, 0.564f);
+                rightWrist.transform.position = new Vector3(getAverage.x, key_manager.wholeKeyArr[tempHand[i_minFinger]].transform.position.y, key_manager.wholeKeyArr[tempHand[i_minFinger]].transform.position.z);
 
+                // 레를 쳤을 때 건반 - rightWrist = (0.145, -0.229, 0.981) -> 건반 - 벡터 = rightWrist
 
-                Targets[i_minFinger].transform.position = key_manager.wholeKeyArr[i_minFinger].transform.position;
-                Targets[i_maxFinger].transform.position = key_manager.wholeKeyArr[i_maxFinger].transform.position;
+                rightWrist.transform.position -= new Vector3(0.18f, -0.3f, 0.981f);
+
+                if (thumb != -1 || pinky != -1)
+                {
+                    rightWrist.transform.position += new Vector3(0f, 0f, 0.28f);
+                }
+
+                if (thumb != -1)
+                {
+                    rightWrist.transform.position += new Vector3(0.11f, 0f, 0f);
+                }
+
+                //Targets[i_minFinger].transform.position = key_manager.wholeKeyArr[tempHand[i_minFinger]].transform.position - keyDownValue;
+                //Targets[i_maxFinger].transform.position = key_manager.wholeKeyArr[tempHand[i_maxFinger]].transform.position - keyDownValue;
+
+                getFingerForm(thumb, index, middle, ring, pinky, i_minFinger, i_maxFinger);
+            }
+        }
+        
+    }
+
+    void getFingerForm(int thumb, int index, int middle, int ring, int pinky, int i_minFinger, int i_maxFinger)
+    {
+        int[] tempHand = { thumb, index, middle, ring, pinky };
+
+        // 외부 손가락끼리 일정 간격 만들기
+
+        Vector3 distantBet = Vector3.zero;
+
+        distantBet = key_manager.wholeKeyArr[tempHand[i_maxFinger]].transform.position - key_manager.wholeKeyArr[tempHand[i_minFinger]].transform.position;
+        distantBet = distantBet / (i_maxFinger - i_minFinger);
+
+        // 내려가는 손가락 사이에 있는 손가락끼리 거리 벌려주기
+
+        for (int i = i_minFinger; i < i_maxFinger - 1; i++)
+        {
+            Targets[i + 1].transform.position = Targets[i].transform.position + distantBet;
+        }
+
+        // i_minFinger와 maxFinger 사이에 있는 내려가야 하는 손가락들 내려주기
+        for (int i = 0; i < 5; i++)
+        {
+            if (tempHand[i] > -1)
+            {
+                Targets[i].transform.position = key_manager.wholeKeyArr[tempHand[i]].transform.position;
+                Targets[i].transform.position -= keyDownValue;
+            }
+            else
+            {
+                Targets[i].transform.position += stretchValue;
             }
         }
 
-
+        
     }
 
     // 다섯 손가락 중 가장 작은 (활성화된) 번호 구하기

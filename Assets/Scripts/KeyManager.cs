@@ -84,14 +84,6 @@ public class KeyManager : MonoBehaviour
 
             Debug.Log(distBetKeyThumb.ToString("N3"));
         }
-
-        if (Input.GetKeyDown(KeyCode.Y))
-        {
-            Debug.Log("30번쨰 건반의 글로벌 위치");
-            Debug.Log(wholeKeyArr[30].transform.position);
-            Debug.Log("33번째 건반의 글로벌 위치");
-            Debug.Log(wholeKeyArr[30].transform.position);
-        }
     }
 
     // check how much key should move
