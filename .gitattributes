@@ -1,0 +1,9 @@
+1.obj filter=lfs diff=lfs merge=lfs -text
+piano.obj filter=lfs diff=lfs merge=lfs -text
+20210917_finalproject_backup.unitypackage filter=lfs diff=lfs merge=lfs -text
+Izzy.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Izzy/Meshes/Izzy.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/models/1.obj filter=lfs diff=lfs merge=lfs -text
+Assets/models/piano.obj filter=lfs diff=lfs merge=lfs -text
+piano_right.fbx filter=lfs diff=lfs merge=lfs -text
+Assets/Scenes/20210917_finalproject_backup.unitypackage filter=lfs diff=lfs merge=lfs -text

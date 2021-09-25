@@ -1,0 +1,1759 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1237; Version 2004; 64bit' Language: 'ko' Physical Memory: 16339 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Jaehee Choi/Desktop/SaveMeIK
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1774
+Successfully changed project path to: C:/Users/Jaehee Choi/Desktop/SaveMeIK
+C:/Users/Jaehee Choi/Desktop/SaveMeIK
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 409.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jaehee Choi/Desktop/SaveMeIK/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c60)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6677
+Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005382 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  6.660 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.668611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.889 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1587 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.6 MB.
+System memory in use after: 76.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 2.885400 ms (FindLiveObjects: 0.432300 ms CreateObjectMapping: 0.142700 ms MarkObjects: 2.139400 ms  DeleteObjects: 0.168300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Tongue_Metallic.jpg
+  artifactKey: Guid(8c6c2852ad84b8d42a45cf46b052999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Tongue_Metallic.jpg using Guid(8c6c2852ad84b8d42a45cf46b052999f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5c816385f819bf4a69ceb3c8bfcb5') in 0.314686 seconds
+  Import took 0.319052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026093 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Roughness.jpg
+  artifactKey: Guid(c35e5294aed18d243bd0779aba05b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Roughness.jpg using Guid(c35e5294aed18d243bd0779aba05b72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d77475f168652af249d073f39e66483') in 0.045547 seconds
+  Import took 0.051160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014657 seconds.
+  path: Assets/Izzy/Texture/Bra_Normal.png
+  artifactKey: Guid(ceeafe0efaa5e9c4cad33bb89bcd5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Bra_Normal.png using Guid(ceeafe0efaa5e9c4cad33bb89bcd5190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19c4bc094750738b33a146944036a1f') in 0.100539 seconds
+  Import took 0.103849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062917 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.unity
+  artifactKey: Guid(c227f157df13b418c8ebb9e0b483e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_Nothing.unity using Guid(c227f157df13b418c8ebb9e0b483e121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f72785686a70f8201bbb62465a369b8') in 0.004895 seconds
+  Import took 0.009436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024411 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Materials
+  artifactKey: Guid(55311625ded0e2f4f93f877ab731ed92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Materials using Guid(55311625ded0e2f4f93f877ab731ed92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f7cbcb01ed985e075b99dabe33e401') in 0.004590 seconds
+  Import took 0.008941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068167 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Displacement.jpg
+  artifactKey: Guid(5e26ccfa43659a44db29009691e50309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Displacement.jpg using Guid(5e26ccfa43659a44db29009691e50309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87675c75ec26ff6cc830de579b22f744') in 0.066554 seconds
+  Import took 0.072618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024963 seconds.
+  path: Assets/Izzy/Texture/Skin_Head_Normal.png
+  artifactKey: Guid(a33adc8b5d1a7944f8a6f0f49c95b128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Head_Normal.png using Guid(a33adc8b5d1a7944f8a6f0f49c95b128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bb87449af035b91a9202e18998117f') in 0.162370 seconds
+  Import took 0.168925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063090 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Tongue_Specular.jpg
+  artifactKey: Guid(dc67b81d616fe3945b6a18c8086ffe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Tongue_Specular.jpg using Guid(dc67b81d616fe3945b6a18c8086ffe1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba01952e3be0e39982fc3c9fd842bde') in 0.025663 seconds
+  Import took 0.031544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044538 seconds.
+  path: Assets/Izzy/Texture/low pony tail_Diffuse.png
+  artifactKey: Guid(ff2059cd27b2fa04f8cd1c982e287eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/low pony tail_Diffuse.png using Guid(ff2059cd27b2fa04f8cd1c982e287eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b6d87ab329b36b2f36eb04fda51d11') in 0.012722 seconds
+  Import took 0.017907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018775 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Boots_Normal.jpg
+  artifactKey: Guid(9c121c131f2597246a927bbd3c39db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Boots_Normal.jpg using Guid(9c121c131f2597246a927bbd3c39db91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40c73ed284f0a591c28e0b6a443a22b') in 0.014972 seconds
+  Import took 0.019326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035508 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink
+  artifactKey: Guid(edc1859f6d31046c9936ffb1609fabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink using Guid(edc1859f6d31046c9936ffb1609fabeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172e3cf4cc5d9ff03920bc14a65cd8ce') in 0.004344 seconds
+  Import took 0.010742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015907 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Boots_Diffuse.jpg
+  artifactKey: Guid(0ccbe971913f049459c9b51d6dbe1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Boots_Diffuse.jpg using Guid(0ccbe971913f049459c9b51d6dbe1d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e4c3f78fd76560228823b7cf0c261') in 0.013421 seconds
+  Import took 0.020096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031071 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/Materials
+  artifactKey: Guid(03639b007c783f84399cbc5a78ea63f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/Materials using Guid(03639b007c783f84399cbc5a78ea63f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622626b4fa46a49ac6bcb7c56d02eeee') in 0.005173 seconds
+  Import took 0.009809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011181 seconds.
+  path: Assets/Izzy/Texture/Upper_Teeth_MetallicAlpha.png
+  artifactKey: Guid(77b2533bf5a19b04da949ca2d9971ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Upper_Teeth_MetallicAlpha.png using Guid(77b2533bf5a19b04da949ca2d9971ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69464b1ee19a9b78a08eb5e1d91f8fb5') in 0.012405 seconds
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008242 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Specular.jpg
+  artifactKey: Guid(79df31e8dad55264e921a4dfc0ac504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Specular.jpg using Guid(79df31e8dad55264e921a4dfc0ac504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa5157a351dbc2f2f71f0e4b4b7427b') in 0.012057 seconds
+  Import took 0.016661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044942 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Specular.jpg
+  artifactKey: Guid(07eaad0163fc87348b912cb46690119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Specular.jpg using Guid(07eaad0163fc87348b912cb46690119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491a299084abc0c9911592c77e99cea9') in 0.068495 seconds
+  Import took 0.073092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051540 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat
+  artifactKey: Guid(52d55542834f2465eb9aed460fd370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeTrunk.mat using Guid(52d55542834f2465eb9aed460fd370de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d17f7db247c9221df12817384d1453d') in 0.125626 seconds
+  Import took 0.132886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036641 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Diffuse.jpg
+  artifactKey: Guid(7cad2222f31f83d48beb01f46515b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Diffuse.jpg using Guid(7cad2222f31f83d48beb01f46515b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aea2046307ab122e43ea57e793d180b') in 0.027968 seconds
+  Import took 0.034395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056127 seconds.
+  path: Assets/Shader/Mtrl_Water.mat
+  artifactKey: Guid(20fdf7dda1b3aed4287378910591188d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Mtrl_Water.mat using Guid(20fdf7dda1b3aed4287378910591188d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa0dfe32e149ef962cd6e48a95f066c') in 0.105384 seconds
+  Import took 0.115189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048541 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Roughness.jpg
+  artifactKey: Guid(fd32461f972a4204e99c0e563c980504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Roughness.jpg using Guid(fd32461f972a4204e99c0e563c980504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2878fdf1d4a265482a28279c7b3f8571') in 0.071271 seconds
+  Import took 0.076224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592626 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Roughness.jpg
+  artifactKey: Guid(e4a88854fa150984cbc0bea98265ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Roughness.jpg using Guid(e4a88854fa150984cbc0bea98265ac4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e315fa164b902495ea53d7d743d011') in 0.061623 seconds
+  Import took 0.065953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345895 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Toenail_Metallic.jpg
+  artifactKey: Guid(27f97ddb517eadd48bd9f9e05914c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Toenail_Metallic.jpg using Guid(27f97ddb517eadd48bd9f9e05914c761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40314414cf53fda4c88bf9fd0add820a') in 0.104971 seconds
+  Import took 0.109306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154012 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Specular.jpg
+  artifactKey: Guid(ec797c1406427534bb3c5f07efe2e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Specular.jpg using Guid(ec797c1406427534bb3c5f07efe2e4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea041209bd0955225bd3bd6da4ad333a') in 0.014152 seconds
+  Import took 0.018050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108287 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Materials
+  artifactKey: Guid(0e7cba867a273a641b753fc9721575b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Materials using Guid(0e7cba867a273a641b753fc9721575b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668bb1b41421b311c104503359fe6271') in 0.047552 seconds
+  Import took 0.054781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067658 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.unity
+  artifactKey: Guid(c4ac93a9f488344c29ac272cddb55dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSky.unity using Guid(c4ac93a9f488344c29ac272cddb55dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd74d60e0e290aa30e3b1e83df57e6e') in 0.030132 seconds
+  Import took 0.033870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155738 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold SunsetSettings.lighting
+  artifactKey: Guid(1d8d95d2846ea5c4189f7cb3c51677eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold SunsetSettings.lighting using Guid(1d8d95d2846ea5c4189f7cb3c51677eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e40cdfa45bd0acbc4e0e4088278db573') in 0.089382 seconds
+  Import took 0.097017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.890640 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold NightSettings.lighting
+  artifactKey: Guid(7e6a5d4ec9aa3054ead30be53b06101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Night/Cold NightSettings.lighting using Guid(7e6a5d4ec9aa3054ead30be53b06101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '982626ff02759b78b43156c3c0476f96') in 0.018996 seconds
+  Import took 0.023363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028790 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Specular.jpg
+  artifactKey: Guid(db1e10721d3cdf94996b31739d2cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Specular.jpg using Guid(db1e10721d3cdf94996b31739d2cc089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc6a6860fd43a8028735d1224fd72b3') in 0.012661 seconds
+  Import took 0.016872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022224 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat
+  artifactKey: Guid(6b37186f17556447eb6746e517892110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_SphereSkyReflect.mat using Guid(6b37186f17556447eb6746e517892110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e188404fdfbb683d8189eb8fb08c80a') in 0.072392 seconds
+  Import took 0.078566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057863 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment
+  artifactKey: Guid(4392334f044e44affbf9f5162eb718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment using Guid(4392334f044e44affbf9f5162eb718ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c41666c034f575fbd67b4651b978b30') in 0.005190 seconds
+  Import took 0.011273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007036 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat
+  artifactKey: Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Blue.mat using Guid(8e64a72f2cb9c45bba4b11d98489b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7d78a2b5ab07cfb494dd8d2c0f84b6') in 0.049127 seconds
+  Import took 0.055375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058974 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeLeaves.mat
+  artifactKey: Guid(5a2c0c63420584a7c99a4f89a19e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeLeaves.mat using Guid(5a2c0c63420584a7c99a4f89a19e51dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abe22fe95a62427553809fc447544d4') in 0.048513 seconds
+  Import took 0.053071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025753 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Metallic.jpg
+  artifactKey: Guid(c80e54a91356cd444b08a2e05a908a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Metallic.jpg using Guid(c80e54a91356cd444b08a2e05a908a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b61a9921c1ea68c95bee8bf4009c66') in 0.010073 seconds
+  Import took 0.013911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014052 seconds.
+  path: Assets/Izzy/Texture/Eye_Normal.png
+  artifactKey: Guid(1578aa6c6c96c8344840542e15f9d985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eye_Normal.png using Guid(1578aa6c6c96c8344840542e15f9d985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e923f59a7aa23bc1ad95bc546ea4a4a6') in 0.013826 seconds
+  Import took 0.017179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544764 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Tongue_Roughness.jpg
+  artifactKey: Guid(36b7df3341ae9b54f9ab355f5ccebf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Tongue_Roughness.jpg using Guid(36b7df3341ae9b54f9ab355f5ccebf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc7c523f6493ccf691a27cb27552c6c') in 0.012791 seconds
+  Import took 0.019537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014004 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Normal.jpg
+  artifactKey: Guid(820b0bc45ce26384a9a84ac1cafb40d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Normal.jpg using Guid(820b0bc45ce26384a9a84ac1cafb40d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2223c678653df94fd062f80c806b4b0') in 0.020686 seconds
+  Import took 0.026624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157770 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Roughness.jpg
+  artifactKey: Guid(4c70f07a8e710e84ba4b62225c748294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Roughness.jpg using Guid(4c70f07a8e710e84ba4b62225c748294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4902af0122d7666dba91156185b92f') in 0.071409 seconds
+  Import took 0.075771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088084 seconds.
+  path: Assets/Izzy/Texture/Toenail_MetallicAlpha.png
+  artifactKey: Guid(050069d588868be4d94c3ca33b79c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Toenail_MetallicAlpha.png using Guid(050069d588868be4d94c3ca33b79c1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c93df9d11dbe7acefbe1a36e8c84ca') in 0.010742 seconds
+  Import took 0.014010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028627 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Diffuse.jpg
+  artifactKey: Guid(5595c9d7d408da448a364fea637eee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Diffuse.jpg using Guid(5595c9d7d408da448a364fea637eee40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f0310006c8a31079fdbe5bc38eb519') in 0.012658 seconds
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086512 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Diffuse.jpg
+  artifactKey: Guid(2ac48e865e930a84ca4275c3a234b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Diffuse.jpg using Guid(2ac48e865e930a84ca4275c3a234b75b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539206a3c525852f9effc064043872f4') in 0.058030 seconds
+  Import took 0.062663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238357 seconds.
+  path: Assets/Izzy/Texture/Upper_Teeth_Normal.png
+  artifactKey: Guid(8c964d45d34df504f81ade758b873842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Upper_Teeth_Normal.png using Guid(8c964d45d34df504f81ade758b873842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63595f4543786cb944d8a0cae901c18') in 0.014185 seconds
+  Import took 0.017485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028189 seconds.
+  path: Assets/Resources/NewFile2.txt
+  artifactKey: Guid(9f973749770a3dd4f857c5766f2b5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile2.txt using Guid(9f973749770a3dd4f857c5766f2b5713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5461d4a5445ca388252be0453a136e79') in 0.014554 seconds
+  Import took 0.018700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020872 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst
+  artifactKey: Guid(26e352704e0b94af78a547c6d44125d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst using Guid(26e352704e0b94af78a547c6d44125d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74658c6fc4b167e6f99445a88d54bc9') in 0.004368 seconds
+  Import took 0.009319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009524 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Normal.jpg
+  artifactKey: Guid(3a9972fb3712efb469864b119e1ea4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Normal.jpg using Guid(3a9972fb3712efb469864b119e1ea4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6b9bd1bf4fa447ad9ecf5ab821aef9') in 0.014893 seconds
+  Import took 0.020126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321966 seconds.
+  path: Assets/Izzy/Texture/Skin_Head_MetallicAlpha.png
+  artifactKey: Guid(5ffaa0cb8bcf95146b3f592a1db65d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Head_MetallicAlpha.png using Guid(5ffaa0cb8bcf95146b3f592a1db65d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3336a882101d5d7c289d5974c4e357e') in 0.112123 seconds
+  Import took 0.122394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027384 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.unity
+  artifactKey: Guid(32897540bc73941088749c21da202563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.unity using Guid(32897540bc73941088749c21da202563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b9c33d6466929b9d433f1879fd8eb4') in 0.062588 seconds
+  Import took 0.068659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035533 seconds.
+  path: Assets/Izzy/Texture/Cornea_Diffuse.png
+  artifactKey: Guid(5c356aafa6bf5f94a8ce8b1eb481eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Cornea_Diffuse.png using Guid(5c356aafa6bf5f94a8ce8b1eb481eff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb04da42ad55bac3dea6aa44c6c132d1') in 0.019391 seconds
+  Import took 0.027984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035695 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Normal.jpg
+  artifactKey: Guid(91923a85013eca94793a54054f9261f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Normal.jpg using Guid(91923a85013eca94793a54054f9261f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ca19a4fb01b8154745b682c9dd0958') in 0.017110 seconds
+  Import took 0.022476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021434 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Metallic.jpg
+  artifactKey: Guid(67d04e82dba16524daf9d7fbd013400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Metallic.jpg using Guid(67d04e82dba16524daf9d7fbd013400c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd053e1b54839b2113dd178e2ef97ec12') in 0.079195 seconds
+  Import took 0.085167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011631 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Roughness.jpg
+  artifactKey: Guid(70b421bf6af26014c96b8b16849f4f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Roughness.jpg using Guid(70b421bf6af26014c96b8b16849f4f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95e8f141f35a011d0dceee969c6d4bc') in 0.039829 seconds
+  Import took 0.045691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018063 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky
+  artifactKey: Guid(9f633969e0c5e4bfeba8bb43b5348d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky using Guid(9f633969e0c5e4bfeba8bb43b5348d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f968aea3d56cb39e9c31d6503aeeedf') in 0.006341 seconds
+  Import took 0.012745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043735 seconds.
+  path: Assets/prefab/KeyManager.cs
+  artifactKey: Guid(968aa28c0deef024d95f9de55b17ae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/KeyManager.cs using Guid(968aa28c0deef024d95f9de55b17ae9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e6a1502025842916d3cca6bda0f594') in 0.020297 seconds
+  Import took 0.023261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046663 seconds.
+  path: Assets/Resources/NewFile9.txt
+  artifactKey: Guid(acdb3d391625adc408b6dfb19af81629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile9.txt using Guid(acdb3d391625adc408b6dfb19af81629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676be82a9d7454a9be9d7a36ca56243') in 0.046849 seconds
+  Import took 0.052227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131988 seconds.
+  path: Assets/Izzy/Texture/short_jeans_Diffuse.png
+  artifactKey: Guid(a54eb37ec04ba184b8bd5ae14781d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/short_jeans_Diffuse.png using Guid(a54eb37ec04ba184b8bd5ae14781d6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336a06c55333fac3d73f5ef4ed9ecde4') in 0.048851 seconds
+  Import took 0.060861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061403 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Toenail_Normal.jpg
+  artifactKey: Guid(49fe81cb76260a64c87b715ca224236e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Toenail_Normal.jpg using Guid(49fe81cb76260a64c87b715ca224236e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549e5d62052d09113a3d46b40a3b4880') in 0.015511 seconds
+  Import took 0.022506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076105 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_LowSettings.lighting
+  artifactKey: Guid(370bbf7eccda55c418d278cada9e1593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_LowSettings.lighting using Guid(370bbf7eccda55c418d278cada9e1593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7eb1f63627be163770c0ad73fb079103') in 0.012131 seconds
+  Import took 0.035039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016846 seconds.
+  path: Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.unity
+  artifactKey: Guid(5d6a31542c4b5409faf229e819f55341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/AllSky_Overcast4_Low.unity using Guid(5d6a31542c4b5409faf229e819f55341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b787ed4dc19e3dbdcfe9a47ff72f5416') in 0.034259 seconds
+  Import took 0.062279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076847 seconds.
+  path: Assets/Resources/NewFile4.txt
+  artifactKey: Guid(baf88a4ee09b0da49b372daf434831b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile4.txt using Guid(baf88a4ee09b0da49b372daf434831b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be87834fe13fa8e0625de38f0d0c6f1') in 0.013906 seconds
+  Import took 0.022471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.352460 seconds.
+  path: Assets/Izzy/Texture/Skin_Body_Normal.png
+  artifactKey: Guid(f2888d334539df447ba62dbe270f430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Body_Normal.png using Guid(f2888d334539df447ba62dbe270f430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff83190bdf5281d3a563e67420b9dd79') in 0.251549 seconds
+  Import took 0.289955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098532 seconds.
+  path: Assets/prefab/WhiteKeyPosition.cs
+  artifactKey: Guid(c55474d4432b2c6479ce2db8af989970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/WhiteKeyPosition.cs using Guid(c55474d4432b2c6479ce2db8af989970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7547721f35d8b6cc7ee6ecada5a32e') in 0.078683 seconds
+  Import took 0.118491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.329846 seconds.
+  path: Assets/AllSkyFree/_AllSkyFree_Documentation.pdf
+  artifactKey: Guid(f6f10bad0f589486893b6f1b8f9fdeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFree_Documentation.pdf using Guid(f6f10bad0f589486893b6f1b8f9fdeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f6141a6c5a0cb4f3b3991a5d37e473') in 0.166095 seconds
+  Import took 0.245797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534367 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.unity
+  artifactKey: Guid(28673ec8420b8493e9588ddb0b4ed7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset.unity using Guid(28673ec8420b8493e9588ddb0b4ed7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ce827bdfc7f522b5134311b47bd14e') in 0.133606 seconds
+  Import took 0.138539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161396 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep DuskSettings.lighting
+  artifactKey: Guid(a23339ef95606514888bfceeaf10c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep DuskSettings.lighting using Guid(a23339ef95606514888bfceeaf10c952) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '6c41aca60c7db7543e6d82a4912a92ff') in 0.206839 seconds
+  Import took 0.215358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388401 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Normal.jpg
+  artifactKey: Guid(615902856fc5cac4d9e4b8550eba7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Normal.jpg using Guid(615902856fc5cac4d9e4b8550eba7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816936effd596fd4eace3656eb1030d0') in 0.021435 seconds
+  Import took 0.026442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.631223 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat
+  artifactKey: Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Red.mat using Guid(33230baef4dda4cf4bd25fcb15d0d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3b1124d3020e6cb5336f272e8135dc') in 0.013616 seconds
+  Import took 0.017460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.073141 seconds.
+  path: Assets/AllSkyFree/Cold Sunset/Cold Sunset.unity
+  artifactKey: Guid(f87b863005c8d4abcb743cad9f6566a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Sunset/Cold Sunset.unity using Guid(f87b863005c8d4abcb743cad9f6566a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff9ff0a590059f9cec91f736b185dcf') in 0.005289 seconds
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010547 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat
+  artifactKey: Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Rock.mat using Guid(bfe0cbb8b308b4a40a8f309f516eede2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5992eff298cbae13dcb59128367b7c') in 0.225776 seconds
+  Import took 0.229574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.715851 seconds.
+  path: Assets/Izzy/Texture/short_jeans_Diffuse_opacity.png
+  artifactKey: Guid(d7634bf95e53946459adb20fbcc45904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/short_jeans_Diffuse_opacity.png using Guid(d7634bf95e53946459adb20fbcc45904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c08cc89ac4145846f8d1d6d4e5cefa1') in 0.015425 seconds
+  Import took 0.018795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035042 seconds.
+  path: Assets/AllSkyFree/Overcast Low
+  artifactKey: Guid(63e1d590517f54841ad8cf519edf1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low using Guid(63e1d590517f54841ad8cf519edf1256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435414755989c2edaa5b536dbb210fcc') in 0.005668 seconds
+  Import took 0.011213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006962 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset
+  artifactKey: Guid(6eb09a1750d2d4f609c0e79b804a9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset using Guid(6eb09a1750d2d4f609c0e79b804a9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd6c87f96b468aaed7ae54d0c1553f4') in 0.004470 seconds
+  Import took 0.007352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078708 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Diffuse.jpg
+  artifactKey: Guid(fe5ca470f9733cb47a19b56ddb51c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Diffuse.jpg using Guid(fe5ca470f9733cb47a19b56ddb51c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85b8fc8edb12dd13b22f9c0c2ed8f27') in 0.015368 seconds
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.318286 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Diffuse.jpg
+  artifactKey: Guid(f62ac4879a98e544186288d81965fe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Diffuse.jpg using Guid(f62ac4879a98e544186288d81965fe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94426524fe119ddbe9b80681057dade5') in 0.013336 seconds
+  Import took 0.017463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093355 seconds.
+  path: Assets/Izzy/Texture/Tongue_Diffuse.png
+  artifactKey: Guid(49692ac203fb43147a5ed25b990a1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Tongue_Diffuse.png using Guid(49692ac203fb43147a5ed25b990a1ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7ff826269d220589e427264344e40c') in 0.011147 seconds
+  Import took 0.014959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019338 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Opacity.jpg
+  artifactKey: Guid(fd77f65d5d9bf2849b00658b0d5af012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Opacity.jpg using Guid(fd77f65d5d9bf2849b00658b0d5af012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4757c77b6be7095782a1aa6ba1595cf2') in 0.014772 seconds
+  Import took 0.019946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016007 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Metallic.jpg
+  artifactKey: Guid(b30c0ca5d5063894bb2e86681ac8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Metallic.jpg using Guid(b30c0ca5d5063894bb2e86681ac8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f08c23d63e8bf8c42439c4554912c8') in 0.010782 seconds
+  Import took 0.016876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016008 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat
+  artifactKey: Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Building.mat using Guid(4ecd3f24879b0402c92f21617e3db5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3315215cade44f02d0b5fa3efbcfbec') in 0.016350 seconds
+  Import took 0.021567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.879551 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Displacement.jpg
+  artifactKey: Guid(6501e1711c7c5b844b42471825853742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Displacement.jpg using Guid(6501e1711c7c5b844b42471825853742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107378543cfcd4bfb4afb8bd122ba62a') in 0.435371 seconds
+  Import took 0.438410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.125274 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Metallic.jpg
+  artifactKey: Guid(b3bcc29abf3ffa34292e1502073c83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Metallic.jpg using Guid(b3bcc29abf3ffa34292e1502073c83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9c1771890ed84041fba2d287241de8') in 0.016134 seconds
+  Import took 0.021537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086023 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Specular.jpg
+  artifactKey: Guid(072e88dacc3d47f47af9c15fbe4a519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Specular.jpg using Guid(072e88dacc3d47f47af9c15fbe4a519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a028cbe655110a3076ee182e6c428407') in 0.018992 seconds
+  Import took 0.024609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.202180 seconds.
+  path: Assets/Izzy/Texture/short_jeans_MetallicAlpha.png
+  artifactKey: Guid(b506c1b45ead00940adf1873378d818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/short_jeans_MetallicAlpha.png using Guid(b506c1b45ead00940adf1873378d818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb9f294e0a278096a6b153ffbbcde45') in 0.030604 seconds
+  Import took 0.042091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098436 seconds.
+  path: Assets/Izzy/Texture/Skin_Head_MetallicAlphasrgb.png
+  artifactKey: Guid(f209bda89c9797f41b73c4bac413b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Head_MetallicAlphasrgb.png using Guid(f209bda89c9797f41b73c4bac413b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14293f62e9b16a7ad3b362cd66e791d6') in 0.023756 seconds
+  Import took 0.027274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017597 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Specular.jpg
+  artifactKey: Guid(0fdf2052cb91f8c4fb59f8eeaa2a8ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Specular.jpg using Guid(0fdf2052cb91f8c4fb59f8eeaa2a8ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01043a612ba8bcf33da90482cc3b6ae') in 0.013226 seconds
+  Import took 0.018088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032251 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPinkSettings.lighting
+  artifactKey: Guid(0db2d74d69d53234d9c759cba87fc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPinkSettings.lighting using Guid(0db2d74d69d53234d9c759cba87fc779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7d907976e0c7717682d9a393873d0b8f') in 0.008256 seconds
+  Import took 0.013908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023145 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Reflection.jpg
+  artifactKey: Guid(dc40294d9c1b0044397da394e202eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Reflection.jpg using Guid(dc40294d9c1b0044397da394e202eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cea44d9194e58dd93b1598c5892fd7a') in 0.017263 seconds
+  Import took 0.023247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024879 seconds.
+  path: Assets/Izzy/Texture/low pony tail_Opacity_lowponytail _ope.png
+  artifactKey: Guid(ac33b6cd84adba44ab200a97fab5f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/low pony tail_Opacity_lowponytail _ope.png using Guid(ac33b6cd84adba44ab200a97fab5f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d65428059287418aef58789d6cd81a6') in 0.011431 seconds
+  Import took 0.015932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030926 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Normal.jpg
+  artifactKey: Guid(0d0f9d3176d504d45ac2d027a8210ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Normal.jpg using Guid(0d0f9d3176d504d45ac2d027a8210ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d8fdda12d8b032886a7d6f4c836eb9') in 0.016978 seconds
+  Import took 0.020757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007455 seconds.
+  path: Assets/Resources/NewFile10.txt
+  artifactKey: Guid(0e6245ecf1cc3094983a8e897eb8f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile10.txt using Guid(0e6245ecf1cc3094983a8e897eb8f18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bec8f933435833f1ad8dfa5e4b7ed1d') in 0.004218 seconds
+  Import took 0.007238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058954 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Toenail_Roughness.jpg
+  artifactKey: Guid(fc10adbd83548e84288b1d52e515c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Toenail_Roughness.jpg using Guid(fc10adbd83548e84288b1d52e515c009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f91cd89fb739f277faec84c82d07e1') in 0.015648 seconds
+  Import took 0.019655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035976 seconds.
+  path: Assets/Izzy/Texture/Tongue_Normal.png
+  artifactKey: Guid(ce30eae378fe02040b5258c92831ca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Tongue_Normal.png using Guid(ce30eae378fe02040b5258c92831ca85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1344655daf11fdae91f15937a26e03ee') in 0.011952 seconds
+  Import took 0.015751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016304 seconds.
+  path: Assets/Izzy/Texture/Toenail_Diffuse.png
+  artifactKey: Guid(fdfa91c6a0eb43c4296ee49affe1cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Toenail_Diffuse.png using Guid(fdfa91c6a0eb43c4296ee49affe1cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854c87808f11110d946ec82673af970c') in 0.011097 seconds
+  Import took 0.015996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018961 seconds.
+  path: Assets/Izzy/Texture/Toenail_Normal.png
+  artifactKey: Guid(71daca6039f8678408e9713ef20ca528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Toenail_Normal.png using Guid(71daca6039f8678408e9713ef20ca528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ddd58fd71ab0182e9a98bfe7605024') in 0.011742 seconds
+  Import took 0.015252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046179 seconds.
+  path: Assets/Scenes/IkHandle1.unity
+  artifactKey: Guid(422e29dba9c047b429e58004be19a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IkHandle1.unity using Guid(422e29dba9c047b429e58004be19a2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103c8599cf9ffdd25a15cf0414438ec9') in 0.005252 seconds
+  Import took 0.010669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123128 seconds.
+  path: Assets/Izzy/Texture/short_jeans_Normal.png
+  artifactKey: Guid(7218d21ada896394cb7561130b5e29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/short_jeans_Normal.png using Guid(7218d21ada896394cb7561130b5e29a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a95c95c4fa253522704b582343ed132') in 0.017514 seconds
+  Import took 0.023286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036221 seconds.
+  path: Assets/Izzy/Texture/Bra_MetallicAlpha.png
+  artifactKey: Guid(793181063e84f1f4d8de98dd636be21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Bra_MetallicAlpha.png using Guid(793181063e84f1f4d8de98dd636be21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ea5175eed619f8e637345222a0b6ed') in 0.016969 seconds
+  Import took 0.021949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060751 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Materials
+  artifactKey: Guid(08f31c08359f14d40a744e3bfa49644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Materials using Guid(08f31c08359f14d40a744e3bfa49644b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc79345789c980491f1ed521eccb9ee') in 0.003536 seconds
+  Import took 0.006626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018827 seconds.
+  path: Assets/Izzy/Texture/Eyelash_Diffuse_opacity.png
+  artifactKey: Guid(afd967e66ff6e9740aacd553f5e647b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eyelash_Diffuse_opacity.png using Guid(afd967e66ff6e9740aacd553f5e647b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a8105da9207839df2b34a964b8d2ce') in 0.011737 seconds
+  Import took 0.016738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034016 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunsetSettings.lighting
+  artifactKey: Guid(7df9e7e9de7a92344813d5e5586f4c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunsetSettings.lighting using Guid(7df9e7e9de7a92344813d5e5586f4c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '010b1d91ed73e2f7256ff07a5642b48e') in 0.008433 seconds
+  Import took 0.013694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.681211 seconds.
+  path: Assets/Izzy/Texture/Tongue_MetallicAlpha.png
+  artifactKey: Guid(ffd3b69ed7eabd948a350210e24e8382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Tongue_MetallicAlpha.png using Guid(ffd3b69ed7eabd948a350210e24e8382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de0c2c87aebe035cc569df0b1a29022') in 0.010037 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.400324 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Specular.jpg
+  artifactKey: Guid(6a9b6ca07686cda499ddf3a28f540a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Specular.jpg using Guid(6a9b6ca07686cda499ddf3a28f540a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4ad4783ca462170b6a49365539ac75') in 0.020607 seconds
+  Import took 0.025688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029209 seconds.
+  path: Assets/Izzy/Texture/short_jeans_Opacity.png
+  artifactKey: Guid(35aa48841a0cce9438b8192c3e5ed2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/short_jeans_Opacity.png using Guid(35aa48841a0cce9438b8192c3e5ed2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d4d155fa59dfe4c09a024a39a5b7a5') in 0.013455 seconds
+  Import took 0.019925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017426 seconds.
+  path: Assets/AllSkyFree
+  artifactKey: Guid(4cf1dd94b3ae80b478b47750725381d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree using Guid(4cf1dd94b3ae80b478b47750725381d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf01453bff7951d4920339d489d2229') in 0.006502 seconds
+  Import took 0.013103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010480 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Roughness.jpg
+  artifactKey: Guid(6b9e921aaf45a8241af311358ba29903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Body_Roughness.jpg using Guid(6b9e921aaf45a8241af311358ba29903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2f041240f2533a345ac7858030f368') in 0.016694 seconds
+  Import took 0.021616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018933 seconds.
+  path: Assets/Izzy/Texture/Skin_Body_MetallicAlpha.png
+  artifactKey: Guid(86371f277931cdc439a5a15a5b86452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Body_MetallicAlpha.png using Guid(86371f277931cdc439a5a15a5b86452a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ee1f9ff784eaa32168e3deeac1979e') in 0.016470 seconds
+  Import took 0.019977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010592 seconds.
+  path: Assets/Izzy/Texture/Cornea_Normal.png
+  artifactKey: Guid(3e4256202269f0241b8351bab8b18af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Cornea_Normal.png using Guid(3e4256202269f0241b8351bab8b18af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6cbefff78fc5fe22f85aeb730d9511') in 0.016595 seconds
+  Import took 0.022813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035281 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.unity
+  artifactKey: Guid(a6ac75420f93c4fa99b35113a21e4eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Epic_GloriousPink.unity using Guid(a6ac75420f93c4fa99b35113a21e4eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef34b7582dcc30aa126a62dc943cbd9d') in 0.004531 seconds
+  Import took 0.008125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006595 seconds.
+  path: Assets/AllSkyFree/Epic_GloriousPink/Materials/Epic_GloriousPink_EquiRect.mat
+  artifactKey: Guid(7038634ef98e36a40af9aa0b705c1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_GloriousPink/Materials/Epic_GloriousPink_EquiRect.mat using Guid(7038634ef98e36a40af9aa0b705c1b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaf0ce8ab581e378ad187abe55ab02a') in 0.093120 seconds
+  Import took 0.099780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058086 seconds.
+  path: Assets/Izzy/Texture/Lower_Teeth_Normal.png
+  artifactKey: Guid(30b214ac0db2aca4cb950ddff8ce1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Lower_Teeth_Normal.png using Guid(30b214ac0db2aca4cb950ddff8ce1075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab318ca804de56644d4024c7b773c0b3') in 0.013289 seconds
+  Import took 0.017270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016696 seconds.
+  path: Assets/Izzy/Texture/Eyelash_Opacity.png
+  artifactKey: Guid(27eb3f12e1679ef4eabafdb793598b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eyelash_Opacity.png using Guid(27eb3f12e1679ef4eabafdb793598b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae047ded35fbf81cc25c67680301fdcd') in 0.015030 seconds
+  Import took 0.020160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046436 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Boots_Metallic.jpg
+  artifactKey: Guid(906fafb7e42fda3458793e572d4e3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Boots_Metallic.jpg using Guid(906fafb7e42fda3458793e572d4e3032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa88dd8159d7e9a6a69bc8509dd07c8') in 0.010493 seconds
+  Import took 0.015942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008108 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat
+  artifactKey: Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Landscape.mat using Guid(010dd68491d1d4a1692a6d2272e5cb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff18b10542182b7b0d9717cf7389e5f') in 0.013397 seconds
+  Import took 0.016733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019447 seconds.
+  path: Assets/Izzy/Texture/Skin_Body_MetallicAlphat.tga
+  artifactKey: Guid(276328ed0db40664285ece79a57ad6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Body_MetallicAlphat.tga using Guid(276328ed0db40664285ece79a57ad6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1034266b5430f2d421250ecb9998d0d3') in 0.593236 seconds
+  Import took 0.596845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102572 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Metallic.jpg
+  artifactKey: Guid(c66189993ee78e74884a46fde8889472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Metallic.jpg using Guid(c66189993ee78e74884a46fde8889472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f9a3228f17b531196605aa5181d1f9') in 0.008620 seconds
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010137 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst.unity
+  artifactKey: Guid(40af7173f2b2d4f9283c3832d0ebcb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst.unity using Guid(40af7173f2b2d4f9283c3832d0ebcb31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3946235bc20ab3d488cd195dc5a004ff') in 0.006700 seconds
+  Import took 0.011383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019340 seconds.
+  path: Assets/Izzy/Texture/Bra_Diffuse_opacity.png
+  artifactKey: Guid(8726da6322636a6459c43979eff9383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Bra_Diffuse_opacity.png using Guid(8726da6322636a6459c43979eff9383e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd039b8026ef2450287db9ac7cfddbe') in 0.017931 seconds
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129170 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Roughness.jpg
+  artifactKey: Guid(91ed410956411214cb9a69d0d0a3d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Roughness.jpg using Guid(91ed410956411214cb9a69d0d0a3d828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd581b48fb0f30df173ec4fc43367743') in 0.011705 seconds
+  Import took 0.016070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018392 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/rock.mat
+  artifactKey: Guid(51dc696c8ce2945ce968026f5776ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/rock.mat using Guid(51dc696c8ce2945ce968026f5776ca52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8740a42ef49dbd439706d0d3df1937d') in 0.013566 seconds
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007393 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Deep Dusk.unity
+  artifactKey: Guid(c8a48d1a6bbea47e981602e288f19742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Deep Dusk.unity using Guid(c8a48d1a6bbea47e981602e288f19742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fc550a285ed2bdf99f22273204d646') in 0.003755 seconds
+  Import took 0.007048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012912 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Opacity.jpg
+  artifactKey: Guid(3c6e71396cc347640bbb49e02556245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Opacity.jpg using Guid(3c6e71396cc347640bbb49e02556245d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2988b6b41ada393d7458cdd3ebdeb1e') in 0.011123 seconds
+  Import took 0.015567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038911 seconds.
+  path: Assets/Izzy/Texture/Bra_Opacity.png
+  artifactKey: Guid(1ea506e89f030ed4b96e1b1a42e25924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Bra_Opacity.png using Guid(1ea506e89f030ed4b96e1b1a42e25924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e44718a98eec55f33a065568cd7f380') in 0.015791 seconds
+  Import took 0.020220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014322 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet
+  artifactKey: Guid(5aa7b9311704b43fa88e82c5ec3baa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet using Guid(5aa7b9311704b43fa88e82c5ec3baa46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481df00b616e90b18fb5ee78b7474423') in 0.004890 seconds
+  Import took 0.008726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053669 seconds.
+  path: Assets/Izzy/Texture/Bra_Diffuse.png
+  artifactKey: Guid(c722e86dba04cce418156c88658d729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Bra_Diffuse.png using Guid(c722e86dba04cce418156c88658d729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5372b92c62d8b67f46204ca4bcf66174') in 0.015571 seconds
+  Import took 0.020146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016754 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSkySettings.lighting
+  artifactKey: Guid(695133d2cfba7f84aa64f584ced3317d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky/Cartoon Base NightSkySettings.lighting using Guid(695133d2cfba7f84aa64f584ced3317d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c12a190de6be84e9b9074683e6059fb5') in 0.006700 seconds
+  Import took 0.010551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067723 seconds.
+  path: Assets/Resources/NewFile3.txt
+  artifactKey: Guid(0fa08a8cd5a7ee04aa5fe7d570c4241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile3.txt using Guid(0fa08a8cd5a7ee04aa5fe7d570c4241d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9504e464f8ec9ab54966146cb2377a') in 0.005140 seconds
+  Import took 0.009194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065956 seconds.
+  path: Assets/Izzy/Texture/Skin_Body_Diffuse.png
+  artifactKey: Guid(ae7330413c7187144ba77f62731bf1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Body_Diffuse.png using Guid(ae7330413c7187144ba77f62731bf1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58bbdc7b21be004fdc7f7a3c43393c6') in 0.013848 seconds
+  Import took 0.018969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009690 seconds.
+  path: Assets/Scripts/KeyDownTest.cs
+  artifactKey: Guid(7788884451302244f84ab5221b356e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KeyDownTest.cs using Guid(7788884451302244f84ab5221b356e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b27ef1d71875fac9b53ff561c84437') in 0.003786 seconds
+  Import took 0.008848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017751 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Toenail_Specular.jpg
+  artifactKey: Guid(8cdfb8b1576db1147bd8d194f8545834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Toenail_Specular.jpg using Guid(8cdfb8b1576db1147bd8d194f8545834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a3271a661187760de0aaccfe7cd2a') in 0.013387 seconds
+  Import took 0.016995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024042 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Metallic.jpg
+  artifactKey: Guid(a36a8ed61c6b2094fbcf6a1ed2255e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Metallic.jpg using Guid(a36a8ed61c6b2094fbcf6a1ed2255e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a996578545dcae1f09b71f2d509c1ff0') in 0.009462 seconds
+  Import took 0.014655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077412 seconds.
+  path: Assets/Izzy/Texture/low pony tail_Diffuse_opacity.png
+  artifactKey: Guid(a4e3115a4c6aa3f47bf8f7f28379389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/low pony tail_Diffuse_opacity.png using Guid(a4e3115a4c6aa3f47bf8f7f28379389a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac105c9084b67e473203d8ef58bf19') in 0.016487 seconds
+  Import took 0.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057314 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Reflection.jpg
+  artifactKey: Guid(aafa0d9e420a4034eb3dc3296d709fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Reflection.jpg using Guid(aafa0d9e420a4034eb3dc3296d709fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa343d8651d1ca5c0ce4c1031a955bd') in 0.010871 seconds
+  Import took 0.017387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056457 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat
+  artifactKey: Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_TreeLeaves.mat using Guid(2f31f4440de60444b8dd94d4d64b3c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d1f0f09d6f8a75c0bfb31dd68debbf') in 0.014934 seconds
+  Import took 0.018783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028397 seconds.
+  path: Assets/Resources/NewFile7.txt
+  artifactKey: Guid(0f1db6488b5a1d742a881261db7cd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile7.txt using Guid(0f1db6488b5a1d742a881261db7cd596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1ea06cb501b02a0f20c8100c36fd52') in 0.006938 seconds
+  Import took 0.012333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056699 seconds.
+  path: Assets/Scenes/re_piano.unity
+  artifactKey: Guid(91f251b29bf4dcc4ebe21f5897410730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/re_piano.unity using Guid(91f251b29bf4dcc4ebe21f5897410730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9e3bec3d6f7c181c2e5b2bf3a74b6d') in 0.006704 seconds
+  Import took 0.011781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274165 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Specular.jpg
+  artifactKey: Guid(355e1982b948cd7469364485b17b4ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Specular.jpg using Guid(355e1982b948cd7469364485b17b4ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab122ee4e5791d27f26588e45b09da2') in 0.023782 seconds
+  Import took 0.029267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180104 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat
+  artifactKey: Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightIllum.mat using Guid(ff33c7fce672541f095331a057da80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6401853beae124d44b48a6e6373450af') in 0.014879 seconds
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032626 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials
+  artifactKey: Guid(d01d162f3fa514c82bb2896086de4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials using Guid(d01d162f3fa514c82bb2896086de4bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7888e35e49679f1eea1c99a92fc655') in 0.003870 seconds
+  Import took 0.008813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009190 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Diffuse.jpg
+  artifactKey: Guid(ad196bd67b354fe44af9c7f4d1e0a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Diffuse.jpg using Guid(ad196bd67b354fe44af9c7f4d1e0a0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae3c09927a4adde79ea328f9f03ccc9') in 0.012675 seconds
+  Import took 0.017902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009987 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Roughness.jpg
+  artifactKey: Guid(2d21fbacaf0dc54418df4daedee3c405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Roughness.jpg using Guid(2d21fbacaf0dc54418df4daedee3c405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb0269f5fe84ccbe60aa4dc482f6c69') in 0.016163 seconds
+  Import took 0.022054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020951 seconds.
+  path: Assets/Izzy/Texture/Skin_Head_MetallicAlpha_test.png
+  artifactKey: Guid(7937d25ab5113314b8c968d290e261f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Head_MetallicAlpha_test.png using Guid(7937d25ab5113314b8c968d290e261f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd33dd764d412bd3934d77752d060c6') in 0.010991 seconds
+  Import took 0.017977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033154 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Boots_Roughness.jpg
+  artifactKey: Guid(497f702f7ff1f134486a15196a6447d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Boots_Roughness.jpg using Guid(497f702f7ff1f134486a15196a6447d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d5145d26bed42bbf3f62ae468bc394') in 0.016716 seconds
+  Import took 0.021888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023326 seconds.
+  path: Assets/Izzy/Texture/Fingernail_Normal.png
+  artifactKey: Guid(8e74b65dfd135574babc60e4e56e30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Fingernail_Normal.png using Guid(8e74b65dfd135574babc60e4e56e30fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d36940f83f0fa350457ae170a35b7ca') in 0.012962 seconds
+  Import took 0.017977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026929 seconds.
+  path: Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_NothingSettings.lighting
+  artifactKey: Guid(e1afa3f8fe210fe41a8c33b7d337a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base BlueSky/Day_BlueSky_NothingSettings.lighting using Guid(e1afa3f8fe210fe41a8c33b7d337a9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'b315981c14592172fd257bfe0416aa81') in 0.005118 seconds
+  Import took 0.009937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022654 seconds.
+  path: Assets/Izzy/Texture/Lower_Teeth_MetallicAlpha.png
+  artifactKey: Guid(949b3e5ea7262cc4ca2ec897edcf75b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Lower_Teeth_MetallicAlpha.png using Guid(949b3e5ea7262cc4ca2ec897edcf75b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4664a3507ade1c06f9d676670fa76047') in 0.016213 seconds
+  Import took 0.021283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008554 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat
+  artifactKey: Guid(2f225ce8f2fae4ea3b08c9298a6f25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/TreeTrunk.mat using Guid(2f225ce8f2fae4ea3b08c9298a6f25e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddccaf26b47c881926083880a249ba1a') in 0.017824 seconds
+  Import took 0.022888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009334 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Opacity_lowponytail _ope.jpg
+  artifactKey: Guid(db72673eaab91bc44b168796e218e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Opacity_lowponytail _ope.jpg using Guid(db72673eaab91bc44b168796e218e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c33eb3cf8e05d6b609b3fb4828df048') in 0.014429 seconds
+  Import took 0.020583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009956 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat
+  artifactKey: Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_FlagGreen.mat using Guid(0acfc71c325c54b92add0b07097b6c57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d266ed58101353715c253697bbc33a3') in 0.013462 seconds
+  Import took 0.019664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218384 seconds.
+  path: Assets/Izzy/Texture/Eye_Diffuse.png
+  artifactKey: Guid(0025eb379ab92194ebc58e12ba8e8461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eye_Diffuse.png using Guid(0025eb379ab92194ebc58e12ba8e8461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9363cb576e99e7da31cdacb84a2e336d') in 0.012651 seconds
+  Import took 0.018909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016745 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Bump_lowponytail _bump.jpg
+  artifactKey: Guid(25d840a2611e7a04080264111ebdae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/low pony tail_Bump_lowponytail _bump.jpg using Guid(25d840a2611e7a04080264111ebdae94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e246cffb903ffd3c6c62bc903a1b171') in 0.016587 seconds
+  Import took 0.021688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014731 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Diffuse.jpg
+  artifactKey: Guid(ff05dcc7d1c2e0447bdd96cbb74e9dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Diffuse.jpg using Guid(ff05dcc7d1c2e0447bdd96cbb74e9dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca199b1f723b791d0c2a34198d924dd') in 0.014745 seconds
+  Import took 0.020036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086960 seconds.
+  path: Assets/Izzy/Texture/low pony tail_MetallicAlpha.png
+  artifactKey: Guid(51205de8c4cdfac4f81168b4ac38f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/low pony tail_MetallicAlpha.png using Guid(51205de8c4cdfac4f81168b4ac38f766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43045700476f94c79efffbc2cdf307a') in 0.015186 seconds
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025672 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Diffuse.jpg
+  artifactKey: Guid(66547353dc9294b4d89ba86efbb87ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Diffuse.jpg using Guid(66547353dc9294b4d89ba86efbb87ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc52a749530c836cac6f5ecdf0e07623') in 0.014990 seconds
+  Import took 0.022951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082057 seconds.
+  path: Assets/AllSkyFree/Deep Dusk/Materials/Deep Dusk Equirect.mat
+  artifactKey: Guid(ebf820958e929da4f89910a0932631e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk/Materials/Deep Dusk Equirect.mat using Guid(ebf820958e929da4f89910a0932631e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d0a893c235a9caf2253b803a4b3561') in 0.133996 seconds
+  Import took 0.140593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035734 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Diffuse.jpg
+  artifactKey: Guid(b24e99100835fa94fbc0f773ace82bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Diffuse.jpg using Guid(b24e99100835fa94fbc0f773ace82bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bdf40980fee1713a6a7865381c0cde') in 0.016980 seconds
+  Import took 0.022346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025356 seconds.
+  path: Assets/Izzy/Document/readme.txt
+  artifactKey: Guid(f495157d064fb4e489273337c67f6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Document/readme.txt using Guid(f495157d064fb4e489273337c67f6e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5849a337e83c678b8ce50591ec9c90') in 0.006074 seconds
+  Import took 0.011149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005152 seconds.
+  path: Assets/Resources/NewFile1.txt
+  artifactKey: Guid(0f9796ec1e43c374c969ec11c9629e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile1.txt using Guid(0f9796ec1e43c374c969ec11c9629e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9836bb1857a0958fc8902bce81d1a8d') in 0.006254 seconds
+  Import took 0.012081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056948 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Normal.jpg
+  artifactKey: Guid(00fd9f68f9f0ea940a709b959b6b867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Normal.jpg using Guid(00fd9f68f9f0ea940a709b959b6b867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bcc641410a0b5590d872683549f0c01') in 0.015553 seconds
+  Import took 0.020527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007377 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Toenail_Diffuse.jpg
+  artifactKey: Guid(06326092cda594740bd541645e947719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Toenail_Diffuse.jpg using Guid(06326092cda594740bd541645e947719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99524ca0e433b5864f0ef1629984fced') in 0.013638 seconds
+  Import took 0.019546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095017 seconds.
+  path: Assets/Izzy
+  artifactKey: Guid(6423282c62be32f4480f4e4726c0ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy using Guid(6423282c62be32f4480f4e4726c0ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17250eea9cc221894383f1ae3064efa') in 0.005685 seconds
+  Import took 0.010999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005175 seconds.
+  path: Assets/Resources/NewFile8.txt
+  artifactKey: Guid(8863bade24d1e7d43945cf48a5eb28f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile8.txt using Guid(8863bade24d1e7d43945cf48a5eb28f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde1d5661bdcf061c8666b54406757fc') in 0.005184 seconds
+  Import took 0.010561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008772 seconds.
+  path: Assets/Izzy/Texture/Upper_Teeth_Diffuse.png
+  artifactKey: Guid(7ea1ac29ecfb451489c5e54d8b6cb301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Upper_Teeth_Diffuse.png using Guid(7ea1ac29ecfb451489c5e54d8b6cb301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f87279cdd446a5027955419ac7f2d80') in 0.013938 seconds
+  Import took 0.020221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062192 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Metallic.jpg
+  artifactKey: Guid(ee3fde57450428149aef9fea0aaff842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Metallic.jpg using Guid(ee3fde57450428149aef9fea0aaff842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de43fdbd23f40a06aee5ffdf32a72737') in 0.013702 seconds
+  Import took 0.018613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090352 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat
+  artifactKey: Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat using Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5bcd67cf66af9416be7b346895de55') in 0.026238 seconds
+  Import took 0.033316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018052 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanetSettings.lighting
+  artifactKey: Guid(d6a466ddc4c520f4b8a1761c1698a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanetSettings.lighting using Guid(d6a466ddc4c520f4b8a1761c1698a973) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '46591f6bc67ff6d8dcc11a6ec151a8af') in 0.005245 seconds
+  Import took 0.009725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035879 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Bra_Roughness.jpg
+  artifactKey: Guid(31d5da992d6afe14297c43e702449afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Bra_Roughness.jpg using Guid(31d5da992d6afe14297c43e702449afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75916c57eda98c1a1c2fc19a5fc3ba4b') in 0.017749 seconds
+  Import took 0.023253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020380 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Metallic.jpg
+  artifactKey: Guid(4d01f3931a92e6d41a391d930283bd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Metallic.jpg using Guid(4d01f3931a92e6d41a391d930283bd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66d5b7a72be650fc48ec03500df7414') in 0.011711 seconds
+  Import took 0.016328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027447 seconds.
+  path: Assets/Scenes/piano_only_right_hand.unity
+  artifactKey: Guid(79db7a70612a03b47bb4e380ea4101e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/piano_only_right_hand.unity using Guid(79db7a70612a03b47bb4e380ea4101e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e546a058fe75362512f026d345d8b3cb') in 0.004576 seconds
+  Import took 0.009190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024124 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm
+  artifactKey: Guid(5ec9bf172b54d824799c761d86a22dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm using Guid(5ec9bf172b54d824799c761d86a22dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec0a551f60a69b456aa29e33bf251c0') in 0.003754 seconds
+  Import took 0.008407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027043 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Specular.jpg
+  artifactKey: Guid(bea75ed12b349a04a9987e112be65166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Fingernail_Specular.jpg using Guid(bea75ed12b349a04a9987e112be65166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fd8d68e8eeeceaef0bfc333310457f') in 0.017632 seconds
+  Import took 0.023222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240431 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Materials/AllSky_Night_MoonBurst Equirect.mat
+  artifactKey: Guid(773c4a63106a7b0419b0245fe81c0882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Materials/AllSky_Night_MoonBurst Equirect.mat using Guid(773c4a63106a7b0419b0245fe81c0882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae4746daf85066e1954141a7ef5c507') in 0.104390 seconds
+  Import took 0.112733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283763 seconds.
+  path: Assets/Izzy/Document
+  artifactKey: Guid(31825b675d09d3e4b98ff27bfe41d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Document using Guid(31825b675d09d3e4b98ff27bfe41d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82ece2bdd179a90e944c7f2ff96585b') in 0.005413 seconds
+  Import took 0.032086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010784 seconds.
+  path: Assets/Izzy/Texture/Boots_Diffuse.png
+  artifactKey: Guid(38151b431ab2e6943bd19fce524a3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Boots_Diffuse.png using Guid(38151b431ab2e6943bd19fce524a3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0bf80a1e61dcffa265d55b45f8d2e5') in 0.019020 seconds
+  Import took 0.025189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007341 seconds.
+  path: Assets/Resources/NewFile5.txt
+  artifactKey: Guid(9a7ad9dce13f5794da000e5f6227dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile5.txt using Guid(9a7ad9dce13f5794da000e5f6227dfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5562b9a43d687d0c115d6526581046') in 0.021056 seconds
+  Import took 0.026157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015109 seconds.
+  path: Assets/Izzy/Materials
+  artifactKey: Guid(6c02c58e1b6424a47b31a0bfccbcec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Materials using Guid(6c02c58e1b6424a47b31a0bfccbcec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e2f6c0042b10fed78966c03d0c1da') in 0.004452 seconds
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426026 seconds.
+  path: Assets/AllSkyFree/Cartoon Base NightSky
+  artifactKey: Guid(edfd7568a47754e23b20068c1847c5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cartoon Base NightSky using Guid(edfd7568a47754e23b20068c1847c5fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71197bd8fec42a70d4b6ad961ac2143') in 0.027577 seconds
+  Import took 0.080217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022609 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Metallic.jpg
+  artifactKey: Guid(77a3ca892927deb48b9daaaad7761c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Metallic.jpg using Guid(77a3ca892927deb48b9daaaad7761c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7b53c581c19a03c5f286507ee2478d') in 0.024040 seconds
+  Import took 0.037306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146253 seconds.
+  path: Assets/Izzy/Texture/Fingernail_MetallicAlpha.png
+  artifactKey: Guid(7077194a3becd7b44b631c2eb832507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Fingernail_MetallicAlpha.png using Guid(7077194a3becd7b44b631c2eb832507f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90058cc570973ea7184b81a05f7a082') in 0.016254 seconds
+  Import took 0.021627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013823 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Normal.jpg
+  artifactKey: Guid(ce717e0569ee42248881367dd474492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Normal.jpg using Guid(ce717e0569ee42248881367dd474492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b960260599f00a509e03c98ee9bb14') in 0.016098 seconds
+  Import took 0.021196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050180 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/Landscape.mat
+  artifactKey: Guid(1045d2cff7dde4d3ab5feb4f0dbc7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/Landscape.mat using Guid(1045d2cff7dde4d3ab5feb4f0dbc7f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014a43e9f8a457a7a62f029dd409047e') in 0.020238 seconds
+  Import took 0.027385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011377 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Diffuse.jpg
+  artifactKey: Guid(762a20acb66acde479d00d307e5d9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Lower_Teeth_Diffuse.jpg using Guid(762a20acb66acde479d00d307e5d9554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3e4cd93deec0d0fb7dbcd8847b90de') in 0.014619 seconds
+  Import took 0.020170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010999 seconds.
+  path: Assets/Izzy/Texture/Fingernail_Diffuse.png
+  artifactKey: Guid(909a24ce53dd96e43aaa451b4d8bffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Fingernail_Diffuse.png using Guid(909a24ce53dd96e43aaa451b4d8bffdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '590ec496ace792a80a335710cd490a96') in 0.014620 seconds
+  Import took 0.020428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164640 seconds.
+  path: Assets/Resources/NewFile6.txt
+  artifactKey: Guid(a89acf53235726d4a900031d96842074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewFile6.txt using Guid(a89acf53235726d4a900031d96842074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0081878e0025e3653f53cc5b991ae80b') in 0.005105 seconds
+  Import took 0.009985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043929 seconds.
+  path: Assets/AllSkyFree/Cold Night/Cold Night.unity
+  artifactKey: Guid(8c6f0d7d2a576443a92d35db4d83c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Cold Night/Cold Night.unity using Guid(8c6f0d7d2a576443a92d35db4d83c4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80827074282a90fc0aec8f274c68580c') in 0.013524 seconds
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059120 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Boots_Specular.jpg
+  artifactKey: Guid(6cda968664869a84b9b1193ef76a50d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Boots_Specular.jpg using Guid(6cda968664869a84b9b1193ef76a50d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8326d33370f0edd795b6ba1631e762b0') in 0.017991 seconds
+  Import took 0.023655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.340921 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Tongue_Normal.jpg
+  artifactKey: Guid(ad3880afa30575f4fa0bc716b3167a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Tongue_Normal.jpg using Guid(ad3880afa30575f4fa0bc716b3167a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb011f2e0219b749f4bae54f983bcb0') in 0.013690 seconds
+  Import took 0.021383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017925 seconds.
+  path: Assets/Izzy/Texture/Eye_MetallicAlpha.png
+  artifactKey: Guid(14b005be3cb4f364da8d68e0249b7c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eye_MetallicAlpha.png using Guid(14b005be3cb4f364da8d68e0249b7c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668ddcad1a3c8c5d626b9a521db274b5') in 0.011625 seconds
+  Import took 0.016422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027518 seconds.
+  path: Assets/Izzy/Texture/Skin_Head_Diffuse.png
+  artifactKey: Guid(362b03bc2a9b666459ed1ba7d2357cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Skin_Head_Diffuse.png using Guid(362b03bc2a9b666459ed1ba7d2357cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe4c9290e5ad107d10143b9a5dd8d1b') in 0.021571 seconds
+  Import took 0.026998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028078 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Metallic.jpg
+  artifactKey: Guid(0398124754399a540b5605d32e647331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Metallic.jpg using Guid(0398124754399a540b5605d32e647331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd619a4f396c2f962b90bbf443bd0d678') in 0.010449 seconds
+  Import took 0.015589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060670 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Diffuse.jpg
+  artifactKey: Guid(9d7da5028919cd047907d27f5e7cd3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Upper_Teeth_Diffuse.jpg using Guid(9d7da5028919cd047907d27f5e7cd3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f70b7fb2fa5c48240219f2f02f1fa5') in 0.011323 seconds
+  Import took 0.017451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041018 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Cornea_Normal.jpg
+  artifactKey: Guid(5813795a6b4c14d45922785858ac0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Cornea_Normal.jpg using Guid(5813795a6b4c14d45922785858ac0aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4d67bee145755012f73e51e4212557') in 0.015859 seconds
+  Import took 0.022190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022958 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Roughness.jpg
+  artifactKey: Guid(d8972d4e3e953f346890b2b5dedb3168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Roughness.jpg using Guid(d8972d4e3e953f346890b2b5dedb3168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558ce293330a8a4616c5c9c914e63420') in 0.026746 seconds
+  Import took 0.031858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007229 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat
+  artifactKey: Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_LightMetal.mat using Guid(3e33a38e2349f447d9fb9ae62269009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff1183030efaa22b93eb6ababfa2a54') in 0.026249 seconds
+  Import took 0.031197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027708 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon BurstSettings.lighting
+  artifactKey: Guid(bea81342cf9903e4a862363a4046ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon BurstSettings.lighting using Guid(bea81342cf9903e4a862363a4046ed44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'edea7c1bad16acec1e3dba6e571809d6') in 0.005227 seconds
+  Import took 0.010253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068581 seconds.
+  path: Assets/Izzy/Texture/Boots_Normal.png
+  artifactKey: Guid(0f6f0b9dc51931d4bba9da03aad2c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Boots_Normal.png using Guid(0f6f0b9dc51931d4bba9da03aad2c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403eb96e75ad7080e9b2a7d0616a51c0') in 0.018068 seconds
+  Import took 0.023170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005448 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat
+  artifactKey: Guid(01a7bc73373864398befa5c72ebb094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_Flag_Gold.mat using Guid(01a7bc73373864398befa5c72ebb094c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b272a3ff84cc0e6cc04d2f5eea0ef52f') in 0.016972 seconds
+  Import took 0.021664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006735 seconds.
+  path: Assets/Izzy/Texture/Cornea_MetallicAlpha.png
+  artifactKey: Guid(092da7affd28bdf4680562ca960dc912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Cornea_MetallicAlpha.png using Guid(092da7affd28bdf4680562ca960dc912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933aefaf3eb071fe1299387574e937a0') in 0.011690 seconds
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076007 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Tongue_Diffuse.jpg
+  artifactKey: Guid(081ab149b8241394c9fbb210dcb8998f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Tongue_Diffuse.jpg using Guid(081ab149b8241394c9fbb210dcb8998f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8646e2e526f3d45807facf1362d476') in 0.010189 seconds
+  Import took 0.014650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023491 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/Materials/AllSky_Space_AnotherPlanet Equirect.mat
+  artifactKey: Guid(beceb98313ce01e4d8fd8d77939686fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/Materials/AllSky_Space_AnotherPlanet Equirect.mat using Guid(beceb98313ce01e4d8fd8d77939686fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453d758cfb577b989d6d279d377d3ba4') in 0.102637 seconds
+  Import took 0.109125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.623852 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Metallic.jpg
+  artifactKey: Guid(6134538ab25b32243a262210c83f70eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Skin_Head_Metallic.jpg using Guid(6134538ab25b32243a262210c83f70eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488aef5af572d50ccfe0f3048ce7b7cd') in 0.011183 seconds
+  Import took 0.016679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031928 seconds.
+  path: Assets/Scripts/CalculateTargets.cs
+  artifactKey: Guid(c9f020cd0fe0a56459ffe76eb78065c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CalculateTargets.cs using Guid(c9f020cd0fe0a56459ffe76eb78065c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b6fe1e4a3f9e63550e9133e95425a4') in 0.006628 seconds
+  Import took 0.015909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009101 seconds.
+  path: Assets/Izzy/Meshes
+  artifactKey: Guid(f9ac475f1d3db784481fe43c6f92e83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes using Guid(f9ac475f1d3db784481fe43c6f92e83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80d72e8a11cc4eda5a9c13a11d1d426') in 0.007168 seconds
+  Import took 0.013723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008204 seconds.
+  path: Assets/Izzy/Texture/Eyelash_MetallicAlpha.png
+  artifactKey: Guid(f34b6493bc5488b489bc07d1fe845de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eyelash_MetallicAlpha.png using Guid(f34b6493bc5488b489bc07d1fe845de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466cd36d3e743aaf8aacd735bbf6f375') in 0.011348 seconds
+  Import took 0.018210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068075 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Opacity.jpg
+  artifactKey: Guid(9feb8fd75ff29da47a3c6bc1da1983e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/short_jeans_Opacity.jpg using Guid(9feb8fd75ff29da47a3c6bc1da1983e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b9bdb5eb0e4279a839dfebccded868') in 0.018316 seconds
+  Import took 0.024212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061141 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eye_Normal.jpg
+  artifactKey: Guid(cfa74512552e9804190e9c8f4e2e286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eye_Normal.jpg using Guid(cfa74512552e9804190e9c8f4e2e286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f354c136a1d1f63faf7227fc78c12fd') in 0.015853 seconds
+  Import took 0.021289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043648 seconds.
+  path: Assets/Izzy/Texture/Lower_Teeth_Diffuse.png
+  artifactKey: Guid(7a74031dc92b946429bc4df196bd1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Lower_Teeth_Diffuse.png using Guid(7a74031dc92b946429bc4df196bd1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a32a383573bf96f90dd9d6ffc273ef7') in 0.108136 seconds
+  Import took 0.131013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015854 seconds.
+  path: Assets/AllSkyFree/Deep Dusk
+  artifactKey: Guid(6e2365a3b549547b998c293780300ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Deep Dusk using Guid(6e2365a3b549547b998c293780300ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23fbcba40ac11794df59ac67763792b') in 0.005569 seconds
+  Import took 0.014064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015532 seconds.
+  path: Assets/Izzy/Texture/Boots_MetallicAlpha.png
+  artifactKey: Guid(dd42d4705087ae541aaf006c3aaa28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Boots_MetallicAlpha.png using Guid(dd42d4705087ae541aaf006c3aaa28a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85863459135013a786749f6d52fb1991') in 0.018114 seconds
+  Import took 0.025891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027971 seconds.
+  path: Assets/Izzy/Texture/Eyelash_Diffuse.png
+  artifactKey: Guid(76954c135b448ff439a9f2d928a30213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Texture/Eyelash_Diffuse.png using Guid(76954c135b448ff439a9f2d928a30213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a988d00942a7948781e5de5421e3b5') in 0.012141 seconds
+  Import took 0.017930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009258 seconds.
+  path: Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Roughness.jpg
+  artifactKey: Guid(54e72cb643e639549aaf297bd8d31f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Izzy/Meshes/Izzy.fbm/Eyelash_Roughness.jpg using Guid(54e72cb643e639549aaf297bd8d31f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94e5e3900eb825d2b87120db612c9b9') in 0.011030 seconds
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005964 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.684 seconds
+Platform modules already initialized, skipping
+Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1562 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.7 MB.
+System memory in use after: 78.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2071.
+Total: 3.925500 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.130900 ms MarkObjects: 3.226800 ms  DeleteObjects: 0.170800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
