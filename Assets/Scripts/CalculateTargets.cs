@@ -81,10 +81,16 @@ public class CalculateTargets : MonoBehaviour
             GoToOrigin();
         }
 
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             GoToOrigin();
             MoveHands(30, 32, -1, -1, 37);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            GoToOrigin();
+            MoveHands(20, -1, 23, -1, 27);
         }
 
         
@@ -182,11 +188,18 @@ public class CalculateTargets : MonoBehaviour
             {
                 Targets[i].transform.position = key_manager.wholeKeyArr[tempHand[i]].transform.position;
                 Targets[i].transform.position -= keyDownValue;
+
+                if (i > 0 && i < 4)
+                {
+                    Targets[i].transform.position += new Vector3(0.0f, 0.0f, 0.1f);
+                }
             }
             else
             {
                 Targets[i].transform.position += stretchValue;
             }
+
+            
         }
 
         

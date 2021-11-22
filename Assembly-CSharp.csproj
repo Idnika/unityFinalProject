@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\BoneSetting_RightDownR.cs" />
     <Compile Include="Assets\Scripts\SphereSetting.cs" />
     <Compile Include="Assets\Scripts\CalculateTargets.cs" />
+    <Compile Include="Assets\Scripts\PoleManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\NewImageEffectShader.shader" />
