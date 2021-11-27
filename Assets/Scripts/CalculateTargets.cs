@@ -20,7 +20,7 @@ public class CalculateTargets : MonoBehaviour
 
     // 건반이 내려가는 높이
     Vector3 keyDownValue = new Vector3(0f, 0.051f, 0f);
-    Vector3 stretchValue = new Vector3(0.1f, 0.12f, 0.4f);
+    Vector3 stretchValue = new Vector3(0.1f, 0.08f, 0.6f);
 
     Vector3 basicDistance = Vector3.zero;
 
@@ -53,6 +53,21 @@ public class CalculateTargets : MonoBehaviour
     {
 
         if (Input.GetKeyDown(KeyCode.A)) { GetDistance(); }
+
+        if (Input.GetKeyDown(KeyCode.P)) { printTargetPosition(); }
+
+        if (Input.GetKeyDown(KeyCode.O)) { StopHands(); }
+
+        if (Input.GetKeyDown(KeyCode.I)) {
+            GoToOrigin();
+            RingOnlyInput();
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            GoToOrigin();
+            PinkyOnlyInput();
+        }
 
         if (Input.GetKeyDown(KeyCode.B)) {
             GoToOrigin();
@@ -93,6 +108,8 @@ public class CalculateTargets : MonoBehaviour
             MoveHands(20, -1, 23, -1, 27);
         }
 
+
+
         
 
         // rightWrist가 검은 건반을 칠 때 움직이는 정도 : (0.058, 0.071, 0.231)
@@ -102,8 +119,32 @@ public class CalculateTargets : MonoBehaviour
 
     void GetDistance()
     {
-        Vector3 getDist = Targets[2].transform.localPosition - fingerOriginPos[2];
+        Vector3 getDist = Targets[4].transform.localPosition - fingerOriginPos[4];
         Debug.Log(getDist.ToString("N3"));
+    }
+
+    void printTargetPosition()
+    {
+        for(int i = 0; i < 5; i++)
+        {
+            Vector3 tempDist = Targets[i].transform.localPosition - fingerOriginPos[i];
+            Debug.Log(tempDist.ToString("N3"));
+        }
+    }
+
+    // 멈춘 순간의 ***손 모양***
+    void StopHands()
+    {
+        GoToOrigin();
+
+        Targets[0].transform.localPosition += new Vector3(0.042f, -0.021f, 0.004f);
+        Targets[1].transform.localPosition += new Vector3(0.003f, -0.038f, -0.034f);
+        Targets[2].transform.localPosition += new Vector3(0.002f, -0.028f, -0.017f);
+        Targets[3].transform.localPosition += new Vector3(0.003f, -0.035f, -0.029f);
+        Targets[4].transform.localPosition += new Vector3(0.000f, 0.001f, -0.003f);
+
+        Vector3 tempXXangle = new Vector3(-20.0f, 0.0f, 0.0f);
+        rightWrist.transform.rotation = Quaternion.Euler(tempXXangle);
     }
 
     void MoveHands(int thumb, int index, int middle, int ring, int pinky)
@@ -351,5 +392,109 @@ public class CalculateTargets : MonoBehaviour
         temp += disBetFingers;
         temp += getStretch;
         Targets[4].transform.position = temp;
+    }
+
+    void RingOnlyInput()
+    {
+        Debug.Log("Ring is pressing");
+
+
+        Vector3 disBetFingers = new Vector3(0.2f, 0f, 0f);
+        Vector3 getStretch = new Vector3(0f, 0.12f, 0.1f);
+        Vector3 ringMovedDistance = new Vector3(-0.008f, -0.007f, -0.004f);
+        Vector3 temp = Vector3.zero;
+
+        // move thumb
+        Targets[0].transform.position += getStretch;
+        
+        // move ring
+        /*
+        temp = new Vector3(Targets[2].transform.position.x, Targets[3].transform.position.y, Targets[3].transform.position.z);
+        temp += disBetFingers;
+        temp += getStretch;
+        Targets[3].transform.position = temp;
+        */
+        Targets[3].transform.localPosition += ringMovedDistance;
+
+        // move middle
+        temp = new Vector3(Targets[3].transform.position.x, Targets[2].transform.position.y, Targets[2].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[2].transform.position = temp;
+
+        // move index
+        temp = new Vector3(Targets[2].transform.position.x, Targets[1].transform.position.y, Targets[1].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[1].transform.position = temp;
+
+        // move pinky
+        temp = new Vector3(Targets[3].transform.position.x, Targets[4].transform.position.y, Targets[4].transform.position.z);
+        temp += disBetFingers;
+        temp += getStretch;
+        Targets[4].transform.position = temp;
+    }
+
+    void PinkyOnlyInput()
+    {
+        Debug.Log("Pinky is pressing");
+
+        Vector3 disBetFingers = new Vector3(0.2f, 0f, 0f);
+        Vector3 getStretch = new Vector3(0f, 0.12f, 0.1f);
+        Vector3 pinkyMovedDistance = new Vector3(0.002f, -0.026f, -0.017f);
+        Vector3 temp = Vector3.zero;
+
+        // move thumb
+        Targets[0].transform.position += getStretch;
+
+        // move pinky
+        Targets[4].transform.localPosition += pinkyMovedDistance;
+
+        // move  ring
+        temp = new Vector3(Targets[4].transform.position.x, Targets[3].transform.position.y, Targets[3].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[3].transform.position = temp;
+
+        // move middle
+        temp = new Vector3(Targets[3].transform.position.x, Targets[2].transform.position.y, Targets[2].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[2].transform.position = temp;
+
+        // move index
+        temp = new Vector3(Targets[2].transform.position.x, Targets[1].transform.position.y, Targets[1].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[1].transform.position = temp;
+
+        // move ring
+        /*
+        temp = new Vector3(Targets[2].transform.position.x, Targets[3].transform.position.y, Targets[3].transform.position.z);
+        temp += disBetFingers;
+        temp += getStretch;
+        Targets[3].transform.position = temp;
+        */
+        // Targets[3].transform.localPosition += ringMovedDistance;
+
+        /*
+        // move middle
+        temp = new Vector3(Targets[3].transform.position.x, Targets[2].transform.position.y, Targets[2].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[2].transform.position = temp;
+
+        // move index
+        temp = new Vector3(Targets[2].transform.position.x, Targets[1].transform.position.y, Targets[1].transform.position.z);
+        temp -= disBetFingers;
+        temp += getStretch;
+        Targets[1].transform.position = temp;
+
+        // move pinky
+        temp = new Vector3(Targets[3].transform.position.x, Targets[4].transform.position.y, Targets[4].transform.position.z);
+        temp += disBetFingers;
+        temp += getStretch;
+        Targets[4].transform.position = temp;
+        */
     }
 }

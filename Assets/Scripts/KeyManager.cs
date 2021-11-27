@@ -60,6 +60,16 @@ public class KeyManager : MonoBehaviour
             WhiteKeyDown(11);
             goRightWristWithMiddle(11);
         }
+        
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            goRightWristWithRing(18);
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            goRightWristWithPinky(35);
+        }
 
         for (int i = 0; i < i_WholeKeyNumber; i++)
         {
@@ -80,7 +90,7 @@ public class KeyManager : MonoBehaviour
         {
             Vector3 distBetKeyThumb = Vector3.zero;
 
-            distBetKeyThumb = wholeKeyArr[9].transform.position - rightWrist.transform.position;
+            distBetKeyThumb = wholeKeyArr[35].transform.position - rightWrist.transform.position;
 
             Debug.Log(distBetKeyThumb.ToString("N3"));
         }
@@ -112,6 +122,18 @@ public class KeyManager : MonoBehaviour
     void goRightWristWithMiddle(int number)
     {
         Vector3 distBet = new Vector3(0.234f, -0.347f, 0.933f);
+        rightWrist.transform.position = wholeKeyArr[number].transform.position - distBet;
+    }
+
+    void goRightWristWithRing(int number)
+    {
+        Vector3 distBet = new Vector3(0.133f, -0.277f, 0.999f);
+        rightWrist.transform.position = wholeKeyArr[number].transform.position - distBet;
+    }
+
+    void goRightWristWithPinky(int number)
+    {
+        Vector3 distBet = new Vector3(0.258f, -0.337f, 0.746f);
         rightWrist.transform.position = wholeKeyArr[number].transform.position - distBet;
     }
 
