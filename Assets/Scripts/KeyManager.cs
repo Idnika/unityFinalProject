@@ -35,6 +35,7 @@ public class KeyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.B)) {
             isGettingUp[10] = true;
             WhiteKeyDown(9);
@@ -94,6 +95,7 @@ public class KeyManager : MonoBehaviour
 
             Debug.Log(distBetKeyThumb.ToString("N3"));
         }
+        */
     }
 
     // check how much key should move
@@ -127,7 +129,7 @@ public class KeyManager : MonoBehaviour
 
     void goRightWristWithRing(int number)
     {
-        Vector3 distBet = new Vector3(0.133f, -0.277f, 0.999f);
+        Vector3 distBet = new Vector3(0.133f, -0.230f, 0.999f);
         rightWrist.transform.position = wholeKeyArr[number].transform.position - distBet;
     }
 

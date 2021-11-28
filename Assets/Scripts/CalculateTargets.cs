@@ -51,8 +51,10 @@ public class CalculateTargets : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        /* test codes 
+          
         if (Input.GetKeyDown(KeyCode.A)) { GetDistance(); }
+
 
         if (Input.GetKeyDown(KeyCode.P)) { printTargetPosition(); }
 
@@ -108,7 +110,7 @@ public class CalculateTargets : MonoBehaviour
             MoveHands(20, -1, 23, -1, 27);
         }
 
-
+        */
 
         
 
@@ -147,11 +149,16 @@ public class CalculateTargets : MonoBehaviour
         rightWrist.transform.rotation = Quaternion.Euler(tempXXangle);
     }
 
+    void GoingHands()
+    {
+        rightWrist.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0.0f, 0.0f));
+    }
+
     void MoveHands(int thumb, int index, int middle, int ring, int pinky)
     {
-        if (thumb >= 52)
+        if (thumb >= 52) // black keys
         { }
-        else
+        else // white keys
         {
             if (
                 (thumb != -1 && index == -1 && middle == -1 && ring == -1 && pinky == -1) ||
@@ -162,10 +169,12 @@ public class CalculateTargets : MonoBehaviour
             {
                 // 손가락 하나만 사용하는 손 모양들
             }
+
             else if (thumb == -1 && index == -1 && middle == -1 && ring == -1 && pinky == -1)
             {
                 // 쉼표 구간 (아무것도 치지 않음)
             }
+
             else
             {
                 // 통상의 경우(손가락 두 개 이상이 눌렸을 때)
